@@ -1,0 +1,298 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	font-size: 270%;
+	text-align: center;
+	margin-top: 3%;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+section{
+	float: left;
+	margin-right:2%;  
+}
+
+
+
+/*   FIRST SECTION  */
+
+#s1{
+	margin-top: 4%;
+	width: 30%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+	margin-left: 2%;
+}
+#s1>h1{
+	font-size: 28px;
+	text-align: center;
+	padding: 3px;
+	background-color:#CE9CAA;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s1>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+}
+
+/*   SECOND SECTION  */ 
+
+#s2{
+	margin-top: 4%;
+	width: 30%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+}
+#s2>h1{
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	background-color:#C04E4E;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s2>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	
+}
+
+/*   THIRD SECTION  */
+
+#s3{
+	margin-top: 4%;
+	width: 30%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+}
+#s3>h1{
+	font-size: 28px;
+	text-align: center;
+	padding: 3px;
+	background-color:#D5C056;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s3>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	
+}
+
+  /**************Tablet View****************/
+
+@media (min-width:768px) and (max-width: 991px) {
+
+#s1{
+	margin-top: 4%;
+	width: 47%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+	margin-left: 2%;
+}
+#s1>h1{
+	font-size: 28px;
+	text-align: center;
+	padding: 3px;
+	background-color:#CE9CAA;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s1>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+}
+
+/*   SECOND SECTION  */ 
+
+#s2{
+	margin-top: 4%;
+	width: 47%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+}
+#s2>h1{
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	background-color:#C04E4E;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s2>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	
+}
+
+/*   THIRD SECTION  */
+
+#s3{
+	margin-top: 4%;
+	width: 96%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+	margin-left: 2%;
+	margin-top: 2%; 
+}
+#s3>h1{
+	font-size: 28px;
+	text-align: center;
+	padding: 3px;
+	background-color:#D5C056;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s3>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	
+}
+}
+
+ /**************Mobile View****************/
+
+@media (max-width:767px){
+
+	header{
+	font-size: 270%;
+	text-align: center;
+	margin-top: 5%;
+	font-family: monospace;
+	font-weight: bold;
+}
+	#s1{
+	margin-top: 4%;
+	width: 88%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+	margin-left: 7%;
+}
+#s1>h1{
+	font-size: 28px;
+	text-align: center;
+	padding: 3px;
+	background-color:#CE9CAA;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s1>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+}
+
+/*   SECOND SECTION  */ 
+
+#s2{
+	margin-top: 4%;
+	width: 88%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+	margin-left: 7%;
+}
+#s2>h1{
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	background-color:#C04E4E;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s2>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	
+}
+
+/*   THIRD SECTION  */
+
+#s3{
+	margin-top: 4%;
+	width: 88%;
+	border: 3px solid black;
+	background-color:#A2A19A; 
+	font-weight: bold;
+	margin-left: 7%;
+}
+#s3>h1{
+	font-size: 28px;
+	text-align: center;
+	padding: 3px;
+	background-color:#D5C056;
+	border: 2px solid black;
+	margin-left: 65%;
+	margin-top: 0%;
+	border-top: 0px;
+	border-right:0px;
+	margin-bottom: 10px;
+}
+#s3>p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	
+}
+}
